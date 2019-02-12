@@ -3,4 +3,4 @@ The main module for `cognitivecluster`.
 """
 from .clusters import sentence_vector_clusters, sentence_vectors
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"

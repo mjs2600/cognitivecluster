@@ -1,10 +1,18 @@
 [tool.poetry]
 name = "cognitivecluster"
-version = "0.1.1"
+version = "0.1.2"
 description = "A library to cluster partners based on metacognitive diversity"
 authors = [
   "Michael Simpson <michael@snthesis.com>",
   "Mary Jane Simpson <msimpson@middlebury.edu>"
+]
+readme = "README.md"
+repository = "https://github.com/mjs2600/cognitivecluster"
+classifiers = [
+  "Natural Language :: English",
+  "Topic :: Education",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)"
 ]
 
 [tool.poetry.dependencies]
