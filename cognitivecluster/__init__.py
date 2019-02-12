@@ -1,1 +1,6 @@
-__version__ = '0.1.0'
+"""
+The main module for `cognitivecluster`.
+"""
+from .clusters import sentence_vector_clusters, sentence_vectors
+
+__version__ = "0.1.0"
