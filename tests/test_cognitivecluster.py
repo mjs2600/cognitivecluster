@@ -1,6 +1,7 @@
 import warnings
 
 import numpy as np
+import pandas as pd
 import pytest
 from sklearn.cluster import KMeans
 from tensorflow import Session
@@ -20,6 +21,19 @@ def test_sentence_vector_clusters_integration():
     assert results[0] == results[1]
     assert results[2] == results[3]
     assert results[4] == results[5]
+
+
+@pytest.mark.slow
+def test_pandas_sentence_vector_clusters_integration():
+    sentences = pd.Series(
+        ["carrot", "tomato", "puppy", "dog", "metacognition", "problem solving"]
+    )
+    results = sentence_vector_clusters(sentences)
+    assert len(results) == 6
+    assert len(set(results.values)) == 3
+    assert results.iloc[0] == results.iloc[1]
+    assert results.iloc[2] == results.iloc[3]
+    assert results.iloc[4] == results.iloc[5]
 
 
 def test_sentence_vector_clusters(mocker):
