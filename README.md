@@ -5,6 +5,10 @@
 Cognitive Cluster is a library for clustering written metacognitive exercises based on document embeddings.
 This is useful for creating cross-cluster partnerships to increase the diversity of problem solving techniques in teams.
 
+## Installation
+
+To instal `cognitivecluster`, run `pip install cognitivecluster`. The library currently only supports Python 3.6. This is a limitation in TensorFlow, as soon as Python 3.7 support is released, I will update this library to add 3.7 support.
+
 ## Usage
 
 To cluster people based on writing samples, pass either a Numpy array or a Pandas series to `cognitivecluster.sentence_vector_clusters`.
