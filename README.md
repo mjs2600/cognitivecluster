@@ -1,5 +1,6 @@
 # Cognitive Cluster
 
+[![PyPI](https://img.shields.io/pypi/v/cognitivecluster.svg)](https://pypi.org/project/cognitivecluster/)
 [![Build Status](https://travis-ci.org/mjs2600/cognitivecluster.svg?branch=master)](https://travis-ci.org/mjs2600/cognitivecluster)
 
 Cognitive Cluster is a library for clustering written metacognitive exercises based on document embeddings.
