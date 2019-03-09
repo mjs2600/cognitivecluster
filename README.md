@@ -8,7 +8,7 @@ This is useful for creating cross-cluster partnerships to increase the diversity
 
 ## Installation
 
-To instal `cognitivecluster`, run `pip install cognitivecluster`. The library currently only supports Python 3.6. This is a limitation in TensorFlow, as soon as Python 3.7 support is released, I will update this library to add 3.7 support.
+To instal `cognitivecluster`, run `pip install cognitivecluster`. The library currently supports Python 3.6+.
 
 ## Usage
 
