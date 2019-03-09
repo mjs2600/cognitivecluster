@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cognitivecluster"
-version = "0.2.0"
+version = "0.2.1"
 description = "A library to cluster partners based on metacognitive diversity"
 authors = [
   "Michael Simpson <michael@snthesis.com>",
@@ -16,7 +16,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "~3.6"
+python = "^3.6"
 tensorflow = "^1.12"
 tensorflow-hub = "^0.2.0"
 scikit-learn = "^0.20.2"

@@ -2,9 +2,10 @@ language: python
 
 python:
     - "3.6"
+    - "3.7"
 
 # command to install dependencies
-install: 
+install:
   - "pip install poetry"
   - "poetry install"
 
